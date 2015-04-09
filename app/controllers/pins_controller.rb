@@ -43,7 +43,8 @@ private
   def pin_params
     params.require(:pin).permit(
       :title,
-      :description
+      :description,
+      :image
       )
   end
 
