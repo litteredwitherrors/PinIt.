@@ -22,4 +22,7 @@ test:
 
 production:
   <<: *default
+  adapter: postgresql
   database: pinster_production
+  username: pinster
+  password: <%= ENV['PINSTER_DATABASE_PASSWORD'] %>

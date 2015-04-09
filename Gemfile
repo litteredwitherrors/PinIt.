@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.2.0"
 
 
 gem 'quiet_assets', group: :development
@@ -11,6 +12,8 @@ gem 'devise', '~> 3.4.0'
 gem 'paperclip', '~> 4.2.0'
 gem 'masonry-rails', '~> 0.2.1'
 gem 'acts_as_votable', '~> 0.10.0'
+gem 'pg', group: :deployment
+gem 'rails_12factor', group: :production
 
 
 
